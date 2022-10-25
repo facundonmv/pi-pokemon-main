@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.Detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90.6vh;
+    background-image: url(https://i.ibb.co/mC5tG1f/wallpaperbetter-com-1366x768.jpg);
+}
+
+.cardDetail{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    background: #E3822E;
+    box-shadow: 0 4;
+    border-radius: 40px;
+    position: relative;
+}
+
+.cardDetail .imgDetail{
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+}
+
+.cardDetail .contentDetail{
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+    padding: 10px 15px;
+}
+
+.cardDetail .contentDetail .titleDetail{
+    color: #000;
+    font-size: 16px;
+}
+
+.cardDetail .contentDetail .textDetail p{
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+    bottom: 16px;
+}
+
+ .btnDetail{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 180px;
+    right: 400px;
+}

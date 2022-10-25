@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .containerHome{
+    background-image: url(https://i.ibb.co/mC5tG1f/wallpaperbetter-com-1366x768.jpg);
+    position: relative;
+    width: 100%;
+    min-height: 90.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-size: cover;
+    background-position: center;
+
+  }
+  .linkRefresh{
+    background: #E3822E;
+   color: #fff;
+    width: 100px;
+    height: 26px;
+    border: none;
+    outline: none;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    transition: .5s;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: 1100px;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    cursor: pointer;
+  }
+  .homeFiltros{
+    background: #FFFFFF;
+    color: #000000;
+     width: 170px;
+     height: 32px;
+     border: none;
+     outline: none;
+     position: relative;
+     display: inline-block;
+     font-size: 18px;
+     box-sizing: border-box;
+     border-radius: 25px;
+     transition: .5s;
+     text-decoration: none;
+     top: 10px;
+  }
+  .homeFiltros2{
+    background: #FFFFFF;
+    color: #000000;
+     width: 156px;
+     height: 32px;
+     border: none;
+     outline: none;
+     position: relative;
+     display: inline-block;
+     font-size: 18px;
+     box-sizing: border-box;
+     border-radius: 25px;
+     transition: .5s;
+     text-decoration: none;
+     top: 10px;
+  }
+  .homeFiltros3{
+    background: #FFFFFF;
+    color: #000000;
+     width: 80px;
+     height: 32px;
+     border: none;
+     outline: none;
+     position: relative;
+     display: inline-block;
+     font-size: 18px;
+     box-sizing: border-box;
+     border-radius: 25px;
+     transition: .5s;
+     text-decoration: none;
+     top: 10px;
+  }
+.homeFiltros4{
+  background: #FFFFFF;
+  color: #000000;
+   width: 140px;
+   height: 32px;
+   border: none;
+   outline: none;
+   position: relative;
+   display: inline-block;
+   font-size: 18px;
+   box-sizing: border-box;
+   border-radius: 25px;
+   transition: .5s;
+   text-decoration: none;
+   top: 10px;
+}
+
+
+  .homeH1{
+    width: 300px;
+    color: #80A62D;
+    font-family: Short Stack;
+  }
+
+  .homeCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerHome{
+  position: relative;
+
+ 
+  }
+
+  .homePaginado{
+position: relative;
+
+  }

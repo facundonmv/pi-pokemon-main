@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+.containerLanding{
+  background-image: url(https://i.ibb.co/mC5tG1f/wallpaperbetter-com-1366x768.jpg);
+  position: relative;
+  width: 100%;
+  min-height: 90.6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.main-text h1{
+	position: relative;
+	top: 260px;
+	left: 40px;
+	font-size: 40px;
+	font-weight: 800;
+	color: #000000;
+	letter-spacing: 2px;
+	line-height: 1.1;
+	text-transform: uppercase;
+	margin-right: 660px;
+	font-family: Short Stack;
+}
+
+.main-text p{
+	position: relative;
+	right: 280px;
+	font-family: Roboto Flex;
+	top: 320px;
+	font-size: 1.6rem;
+	color: #000000;
+	line-height: 30px;
+	margin-bottom: 3rem;
+}
+.btn{
+	position: relative;
+	padding: 15px 66px;
+	color: #fff;
+	
+	background:#fc466b;
+	font-size: 26px;
+	font-weight: 500;
+	border-radius: 15px;
+	border: 2px solid transparent;
+	transition: all .40s ease;
+	right: 300px;
+	top: 340px;
+}
+
+.btn:hover{
+	background: transparent;
+	border: 2px solid rgb(63,94,251);
+	color: #3e1908;
+}
+.containerImg{
+	position: relative;
+}
+.imgLanding{
+	position: absolute;
+	background-size: cover;
+	width: 300px;
+	height: 100px;
+	height: 100px;
+	left: 200px;
+	top: 110px;
+}
+.imgLanding2{
+	position: absolute;
+	background-size: cover;
+	width: 300px;
+	height: 100px;
+	left: 200px;
+	top: 106px;
+}
+.imgLanding3{
+	position: absolute;
+	background-size: cover;
+	width: 300px;
+	height: 100px;
+	left: 200px;
+	top: 100px;
+}
+.imgLanding4{
+	position: absolute;
+	background-size: cover;
+	width: 500px;
+	height: 300px;
+	left: 700px;
+	top: 100px;
+}

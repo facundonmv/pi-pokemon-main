@@ -1,0 +1,195 @@
+.bkg{
+    background-image: url(https://i.ibb.co/mC5tG1f/wallpaperbetter-com-1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  } 
+  
+  .container{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 70px;
+    width: 500px;
+    height: 500px;
+    outline: none;
+    border-radius: 15px;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    backdrop-filter: 1px;
+    box-shadow: 0 0 2px #DE6200, 0 0 2px #DE6200, 0 0 2px  #DE6200;  
+    /* border: #949193 1px solid; */
+  } 
+  
+  .container:hover{
+    box-shadow: 0 0 10px rgba(44, 11, 34, 0.404), 0 0 10px rgba(44, 11, 34, 0.404), 0 0 10px rgba(44, 11, 34, 0.404); 
+    transition-delay: 0.2s;
+    transition: 0.8s; 
+  }
+  
+  .title{
+    color:rgb(63,94,251);
+    flex-direction: column;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: normal; 
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .input {
+    border: none;  
+    cursor: pointer; 
+    padding: 5px;
+    margin-top: 5px; 
+    border-radius: 5px;
+   
+  
+    text-align: left;
+    /* background-color: #fdf6fc73; */
+    /* color: rgb(161, 161, 161); */
+  }
+  
+  .input:hover{
+    background-color: #ffffcc73; 
+  }
+  
+  .error {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    color: #FF0000;
+    text-align:center;
+    font-size: 14px;
+  }
+  
+   
+  .minMax input{
+    width: 70px;
+    margin: 7px;
+  }
+  
+  .temps {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #311601;
+    font-weight: bolder;
+    margin-top:7px;  
+    width: 180px;
+    height: 150px; 
+    margin-left: 160px;
+  } 
+  
+  .templist {
+    font-size: 14px;
+    color: #DE6200;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .tempSelect{
+    margin-top: 7px;
+  } 
+  
+  .btnTemp{
+    width: 25px;
+    margin-left: 20px;
+    border: none;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    background-color: #DE6200;
+    color: white;
+    border-radius: 10px;
+    text-align:center;
+    cursor: pointer;
+  } 
+  
+  .btnTemp:hover{
+    background-color: #fdf6fc73;
+    box-shadow: 0 0 5px rgba(44, 11, 34, 0.404), 0 0 5px rgba(44, 11, 34, 0.404), 0 0 5px rgba(44, 11, 34, 0.404); 
+    transition-delay: 0.2s;
+    transition: 0.8s;  
+  }
+  
+  .form{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #311601;
+    font-weight: bolder;
+  }
+  
+  .formFooter{
+    margin-right: -70%;
+  }
+  
+  .submitbutton{
+    border: none;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.5); 
+    text-align:center;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    bottom: 20px;
+    position: relative;
+   bottom: 420px;
+    left: 180px;
+  }
+  
+  .submitbutton:hover{ 
+    background-color: #fff;
+    border: none;
+    color: #220F00;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+    
+  }
+  
+  .back{
+    margin-top: 683px;
+    margin-right: -90%;
+  }
+  
+  .backbutton{
+    border: none;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    background-color: #c485ba83;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.5); 
+    text-align:center;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+  
+  }
+  
+  .backbutton:hover{ 
+    background-color: #fff;
+    border: none;
+    color: #220F00;
+    transition-delay: 0.2s;
+    transition: 0.8s;
+  }
+  .btnBack{
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 180px;
+    right: 400px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');

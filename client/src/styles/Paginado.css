@@ -1,0 +1,55 @@
+.pagination {
+    position: relative;
+    top: 30px;
+
+}
+
+.buttonPrevNext{
+    width: 40px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: black;
+    border-color: black;
+}
+
+.buttonPrevNext:hover{
+    background-color: red;
+}
+
+.buttonNum {
+    width: 40px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+    color: black;
+    border-color: black;
+}
+
+.buttonNum:hover{
+    background-color: red;
+}
+
+.buttonNumActive {
+    margin: 0 18px;
+    border-radius: 6px;
+    font-weight: 1000;
+    border-color: #101010;
+    background: red;
+    color: #101010;
+}
+
+.arePokemon{
+    color: transparent;
+    font-weight: 0px;
+}
